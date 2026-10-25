@@ -1,7 +1,10 @@
-node_modules/
-dist/
-.env
-.env.*
-!.env.example
+node_modules
+.next
+out
+*.tsbuildinfo
+.env*
+*.zip
 .DS_Store
-Thumbs.db
+# low-res source frames (the site uses the -hd folders)
+public/frames/hero/
+public/frames/about/
